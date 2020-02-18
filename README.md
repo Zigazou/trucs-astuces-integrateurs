@@ -5,6 +5,8 @@ Cet article s’adresse à tout débutant en intégration, opération consistant
 
 Il ne parle pas d’automatisation, d’industrialisation, de CI, de CD…
 
+<mark>Travaux en cours</mark> : [Si vous voyez des choses à ajouter, à corriger, à retirer, n’hésitez pas à en discuter en ouvrant une issue](https://github.com/Zigazou/trucs-astuces-integrateurs/issues).
+
 ## HTML
 
 - [Organisez votre code HTML](html-web/patron-html.md)
