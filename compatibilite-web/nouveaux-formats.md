@@ -43,6 +43,8 @@ Voici comment un navigateur ne supportant pas la balise `<picture>` va/devrait l
 
 Notes :
 
+- la balise `<img>` est obligatoire dans la balise `<picture>`,
+- l’attribut `<media>` contient une Media Query [[Media Queries Level 4](https://drafts.csswg.org/mediaqueries/)]
 - le suppport des anciens navigateurs fonctionne dès l’instant où ceux-ci ignorent simplement les balises qu’ils ne connaissent pas,
 - la balise picture ne gère pas les éventuelles erreurs 404, elle ne passera pas à la source suivante si une image n’est pas disponible (le navigateur affichera alors le contenu de l’attribut `alt`),
 - il n’est pas possible de tester le support d’une particularité du format d’une source autrement que par le type MIME ; s’il est possible de différencier l’APNG (image/apng) du PNG (image/png), il est impossible de différencier un JPEG à encodage Huffman d’un JPEG à encodage arithmétique.
