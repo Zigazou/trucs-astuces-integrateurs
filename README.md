@@ -41,3 +41,4 @@ Il ne parle pas d’automatisation, d’industrialisation, de CI, de CD…
 - [Pensez mobile-first](compatibilite-web/mobile-first.md)
 - [Ayez une pensée pour l’accessibilité](compatibilite-web/accessibilite.md)
 - [N’oubliez pas de configurer `robots.txt` lors du développement](compatibilite-web/site-construction.md)
+- [Utilisez `<picture>` pour les images, les résolutions et les vieux navigateurs](compatibilite-web/nouveaux-formats.md)
