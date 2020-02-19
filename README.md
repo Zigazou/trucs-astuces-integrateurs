@@ -33,6 +33,7 @@ Il ne parle pas d’automatisation, d’industrialisation, de CI, de CD…
 - [Vectoriel ou bitmap, choisissez le plus adapté](image-web/vectoriel-bitmap.md)
 - [Pensez multiples de 8 pour les JPEG](image-web/jpeg-8x8.md)
 - [Choisissez WEBP ou APNG pour les images animées plutôt que GIF](image-web/image-animee.md)
+- [Récupérez proprement les images contenues dans un PDF](image-web/pdfimages.md)
 
 ## Compatibilité, accessibilité
 
