@@ -34,12 +34,12 @@ Mais le cyan, le magenta et le jaune du CMJN ne sont pas du tout ceux du RVB ! L
 
 ## Ne cherchez pas à convertir du CMJN en RVB
 
-Si jamais vous vous aventuriez dans la conversion CMJN vers RVB, vous pourriez avoir de mauvaises surprises. Les recherches vous amènent rapidement à effectuer une conversion utilisant uniquement les cyan, magenta et jaune du RVB. Cela donne des images aux couleurs criardes.
+Si jamais vous vous aventuriez dans la conversion CMJN vers RVB, vous pourriez avoir de mauvaises surprises. Les recherches vous amènent rapidement à effectuer une conversion utilisant uniquement les cyan, magenta et jaune du RVB. Cela donne des images aux couleurs criardes ou en négatif.
 
 Il est préférable de préciser au graphiste qu’il doit livrer les fichiers en RVB car il est normalement en mesure de faire une conversion propre.
 
 ## Travaillez en RVB
 
-Le web fonctionnant avant tout sur des écrans, un seul mot d’ordre : **RVB** !
+Le web fonctionnant avant tout sur des écrans, un seul mot d’ordre : **RVB** ! Et plus précisément **sRVB**, histoire de simplifier.
 
 De plus, un fichier CMJN sera toujours plus lourd, du fait de sa couleur supplémentaire, qu’un fichier RVB.
