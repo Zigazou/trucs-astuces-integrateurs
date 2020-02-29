@@ -24,6 +24,7 @@ Il ne parle pas d’automatisation, d’industrialisation, de CI, de CD…
 - [N’utilisez pas d’image pur CSS](css-web/stop-image-pur-css.md)
 - [Unifiez le rendu entre navigateurs avec CSS reset ou Normalize.css](css-web/unifier-rendu.md)
 - [Utilisez des astuces qui vous simplifient la vie](css-web/techniques.md)
+- [Optimisez vos CSS](css-web/optimisez-vos-css.md)
 
 ## Images
 
