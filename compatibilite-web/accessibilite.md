@@ -1,6 +1,9 @@
 Ayez une pensée pour l’accessibilité
 ====================================
 
+Faites au moins le minimum
+--------------------------
+
 Sans entrer dans les détails, l’accessibilité étant un domaine très vaste, assurez-vous que :
 
 - tous les contrastes sont suffisants [[Contrast checker](https://contrastchecker.com/)],
@@ -12,3 +15,29 @@ Sans entrer dans les détails, l’accessibilité étant un domaine très vaste,
 Si, déjà, vous respectez ces quelques règles, vous aurez fait le gros du travail.
 
 (*) Oui, vous êtes jeunes, vous n’avez aucun problème pour lire des petits caractères à 3 mètres de votre écran. Profitez-en, ça ne durera pas ;-)
+
+Faites attention aux faux-amis
+------------------------------
+
+[Comme le signale Dave Rupert dans son article HTML: The Inaccessible Parts](https://daverupert.com/2020/02/html-the-inaccessible-parts/), on aurait tendance à imaginer que les balises HTML n’ont pas de défaut en matière d’accessibilité.
+
+Si c’est globalement vrai, ce n’est pourtant pas toujours le cas.
+
+L’auteur recommande donc de tester en situation réelle les balises et attributs suivants :
+
+- `<input type="number">`,
+- `<input type="date">`,
+- `<input type="search">`,
+- `<select multiple>`,
+- `<progress>`,
+- `<meter>`,
+- `<dialog>`,
+- `<details><summary>`,
+- `<video>`,
+- `<div onclick>`,
+- `<div aria-label>`,
+- `<a href><div>Block Links</div></a>`,
+- `aria-controls`,
+- `role="tablist"`.
+
+L’article recense toutes les pages pointant des problèmes d’accessibilité.
