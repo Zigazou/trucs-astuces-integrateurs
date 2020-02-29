@@ -38,6 +38,29 @@ Si jamais vous vous aventuriez dans la conversion CMJN vers RVB, vous pourriez a
 
 Il est préférable de préciser au graphiste qu’il doit livrer les fichiers en RVB car il est normalement en mesure de faire une conversion propre.
 
+**Si, vraiment**, vous tenez à le faire vous-même ou que vous ne disposez pas d’un graphiste sous la main, vous pouvez recourir à `convert` d’Image Magick.
+
+Installation sous Debian :
+
+    sudo apt install imagemagick icc-profiles-free
+
+Une fois le nécessaire installé, utilisez `convert` de la façon suivante :
+
+    convert \
+        image-cmyk.tif \
+        -profile /usr/share/color/icc/ISOwebcoated.icc \
+        -profile /usr/share/color/icc/sRGB.icc \
+        image-srgb.jpg
+
+Si votre image est en négatif, faites la même opération avec l’option `-negate` :
+
+    convert \
+        image-cmyk.tif \
+        -negate \
+        -profile /usr/share/color/icc/ISOwebcoated.icc \
+        -profile /usr/share/color/icc/sRGB.icc \
+        image-srgb.jpg
+
 ## Travaillez en RVB
 
 Le web fonctionnant avant tout sur des écrans, un seul mot d’ordre : **RVB** ! Et plus précisément **sRVB**, histoire de simplifier.
