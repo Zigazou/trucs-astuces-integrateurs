@@ -15,20 +15,6 @@ L’opération inverse est plus difficile puisqu’elle nécessite que le logici
 
 Mais elle peut être particulièrement utile.
 
-## Technologie sous-pixel et copie d’écran
-
-Faire une copie d’écran d’une zone contenant du texte est souvent une mauvaise idée car le rendu des caractères utilise la technique des sous-pixels pour améliorer le rendu visuel.
-
-Cette technique permet tripler virtuellement la résolution selon un axe.
-
-Étant totalement dépendante de l’organisation des sous-pixels de l’écran, elle rend la copie d’écran valable uniquement pour les écrans utilisant la même organisation.
-
-<img src="sous-pixel.svg" width="560" height="370">
-
-Si les écrans d’ordinateur utilisent généralement la même disposition (rouge puis vert puis bleu horizontalement), les écrans des tablettes et smartphones présentent des topologies très variées.
-
-Outre la perte de qualité au changement d’écran, elle implique également un taux de compression moindre car elle introduit des couleurs supplémentaires.
-
 ## Optimisez vos images
 
 ### Demandez du PNG 24 bits à votre graphiste
