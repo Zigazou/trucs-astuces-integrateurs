@@ -42,24 +42,30 @@ Il est préférable de préciser au graphiste qu’il doit livrer les fichiers e
 
 Installation sous Debian :
 
-    sudo apt install imagemagick icc-profiles-free
+```shell
+sudo apt install imagemagick icc-profiles-free
+```
 
 Une fois le nécessaire installé, utilisez `convert` de la façon suivante :
 
-    convert \
-        image-cmyk.tif \
-        -profile /usr/share/color/icc/ISOwebcoated.icc \
-        -profile /usr/share/color/icc/sRGB.icc \
-        image-srgb.jpg
+```shell
+convert \
+    image-cmyk.tif \
+    -profile /usr/share/color/icc/ISOwebcoated.icc \
+    -profile /usr/share/color/icc/sRGB.icc \
+    image-srgb.jpg
+```
 
 Si votre image est en négatif, faites la même opération avec l’option `-negate` :
 
-    convert \
-        image-cmyk.tif \
-        -negate \
-        -profile /usr/share/color/icc/ISOwebcoated.icc \
-        -profile /usr/share/color/icc/sRGB.icc \
-        image-srgb.jpg
+```shell
+convert \
+    image-cmyk.tif \
+    -negate \
+    -profile /usr/share/color/icc/ISOwebcoated.icc \
+    -profile /usr/share/color/icc/sRGB.icc \
+    image-srgb.jpg
+```
 
 ## Travaillez en RVB
 
