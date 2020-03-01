@@ -28,15 +28,19 @@ Elle est très différente de la marge intérieure `padding` :
 
 - elle est obligatoirement transparente,
 - elle peut être négative,
-- elle indique un espace minimum à réserver autour de la boîte.
+- elle indique un espace minimum à réserver autour de la boîte,
+- elle ne fait pas partie de la boîte,
+- les marges extérieures haute et basse fusionnent selon certaines conditions, mais pas les marges extérieures gauche et droite.
 
-Cette dernière différence est importante : la marge extérieure ne fait pas partie de la boîte.
+Les [règles de fusion](https://developer.mozilla.org/fr/docs/Web/CSS/Mod%C3%A8le_de_bo%C3%AEte_CSS/Fusion_des_marges) sont souvent obscures pour un débutant.
 
-Un nouveau contexte de formatage de bloc est déclenché à l’intérieur d’un élément bloc par l’une des déclarations suivantes:
+À quelques exceptions près, la fusion de marge n’a pas lieu quand :
 
-- float: left/right,
-- position: absolute,
-- display: inline-block/table-cell/table-caption,
-- overflow: auto/hidden/scroll,
-- overflow-x: auto/hidden/scroll,
-- overflow-y: auto/hidden/scroll.
+- une bordure ou une marge intérieure se trouve entre deux marges extérieures,
+- un nouveau contexte de formatage de bloc est déclenché à l’intérieur d’un élément bloc par l’une des déclarations suivantes :
+    - float: left/right,
+    - position: absolute,
+    - display: inline-block/table-cell/table-caption,
+    - overflow: auto/hidden/scroll,
+    - overflow-x: auto/hidden/scroll,
+    - overflow-y: auto/hidden/scroll.
