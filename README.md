@@ -19,6 +19,7 @@ Il ne parle pas d’automatisation, d’industrialisation, de CI, de CD…
 
 ## CSS
 
+- [Maîtrisez le modèle de boîte](css-web/modele-boite.md)
 - [Restez en dessous de 14 Ko](css-web/barriere-14-ko.md)
 - [Choisissez entre documents et composants](css-web/document-vs-composant.md)
 - [N’utilisez pas d’image pur CSS](css-web/stop-image-pur-css.md)
