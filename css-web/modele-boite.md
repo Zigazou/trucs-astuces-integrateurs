@@ -44,3 +44,14 @@ Les [règles de fusion](https://developer.mozilla.org/fr/docs/Web/CSS/Mod%C3%A8l
     - overflow: auto/hidden/scroll,
     - overflow-x: auto/hidden/scroll,
     - overflow-y: auto/hidden/scroll.
+
+Comprenez la couleur de fond `background-color`
+-----------------------------------------------
+
+La couleur de fond est peinte sous :
+
+- le contenu,
+- la marge intérieure,
+- la bordure.
+
+Si vous utilisez une bordure en pointillés, l’espace entre ces pointillés sera rempli avec la couleur de fond.
