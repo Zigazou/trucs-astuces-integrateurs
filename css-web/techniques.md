@@ -28,7 +28,7 @@ img {
 
 Les valeurs données dans les raccourcis suivent le sens des aiguilles d’une montre :
 
-<img src="montre.svg" width="200">
+<img src="montre.svg" width="200" alt="Montre à aiguille montrant l’ordre top, right, bottom, left utilisé dans les raccourcis CSS">
 
 Par exemple, les deux définitions ci-dessous sont équivalentes :
 
@@ -46,16 +46,15 @@ Par exemple, les deux définitions ci-dessous sont équivalentes :
 
 ```
 
-## Utilisez les unités relatives pour l’écran
+## Utilisez `em` et `rem` pour l’écran
 
-Les unités absolues (`cm`, `mm`, `Q`, `in`, `pc`, `pt` et `px`) sont problématiques pour définir des styles à destination des écrans tant les dimensions et résolutions d’écran peuvent varier.
-
-Pour information, l’unité `px` ne correspond pas à un pixel physique contrairement à ce que sont nom laisse supposer.
+Les unités absolues (`cm`, `mm`, `Q`, `in`, `pc`, `pt` et `px`) sont problématiques pour définir des styles à destination des écrans tant les dimensions et résolutions d’écran peuvent varier. Et, pour information, l’unité `px` ne correspond pas à un pixel physique contrairement à ce que son nom laisse supposer.
 
 Les unités relatives permettent de s’adapter à l’écran de l’utilisateur et de respecter ses choix en matière de taille de police.
 
 Il y a deux unités que vous devez utiliser et avec lesquelles il faut vous habituer :
 
-- `em`, la taille de la police de l’élément courant,
-- `rem`, la taille de la police par défaut.
+- `em`, 1em = 1× la taille de la police de l’élément courant,
+- `rem`, 1rem = 1× la taille de la police par défaut.
 
+L’unité `em` est très pratique pour définir des marges ou des espacements en rapport avec la taille de la police courante. Les valeurs varient alors entre `0.5em` et `2em`.
