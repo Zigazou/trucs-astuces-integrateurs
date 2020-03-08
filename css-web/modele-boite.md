@@ -32,8 +32,6 @@ Elle est très différente de la marge intérieure `padding` :
 - elle ne fait pas partie de la boîte,
 - les marges extérieures haute et basse fusionnent selon certaines conditions, mais pas les marges extérieures gauche et droite.
 
-Les [règles de fusion](https://developer.mozilla.org/fr/docs/Web/CSS/Add background-color
-
 À quelques exceptions près, la fusion de marge n’a pas lieu quand :
 
 - une bordure ou une marge intérieure se trouve entre deux marges extérieures,
@@ -44,6 +42,8 @@ Les [règles de fusion](https://developer.mozilla.org/fr/docs/Web/CSS/Add backgr
     - overflow: auto/hidden/scroll,
     - overflow-x: auto/hidden/scroll,
     - overflow-y: auto/hidden/scroll.
+
+[Pour plus de précisions, reportez-vous au document de référence du W3C sur la fusion des marges](https://www.w3.org/TR/CSS2/box.html#collapsing-margins)
 
 Comprenez la couleur de fond `background-color`
 -----------------------------------------------
