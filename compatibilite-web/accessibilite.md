@@ -1,6 +1,15 @@
 Ayez une pensée pour l’accessibilité
 ====================================
 
+Faites-vous une bonne idée de l’accessibilité
+---------------------------------------------
+
+[97,6% des lecteurs d’écran fonctionnent avec JavaScript](https://a11yproject.com/posts/people-who-use-screen-readers-dont-use-javascript/).
+
+[L’accessibilité n’est pas réservée aux aveugles](https://a11yproject.com/posts/people-who-use-screen-readers-dont-use-javascript/), elle adresse une variété de handicaps visuels, auditifs, moteurs, cognitifs, permanents ou temporaires.
+
+Il n’est pas possible d’automatiser complètement les tests d’accessibilité.
+
 Faites au moins le minimum
 --------------------------
 
@@ -25,7 +34,7 @@ Si c’est globalement vrai, ce n’est pourtant pas toujours le cas.
 
 L’auteur recommande donc de tester en situation réelle les balises et attributs suivants :
 
-- `<input type="number">`,
+- `<input type="number">`, voir aussi [What to use instead of number inputs](https://css-tricks.com/what-to-use-instead-of-number-inputs/),
 - `<input type="date">`,
 - `<input type="search">`,
 - `<select multiple>`,

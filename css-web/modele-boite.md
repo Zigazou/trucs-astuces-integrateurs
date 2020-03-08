@@ -32,7 +32,7 @@ Elle est très différente de la marge intérieure `padding` :
 - elle ne fait pas partie de la boîte,
 - les marges extérieures haute et basse fusionnent selon certaines conditions, mais pas les marges extérieures gauche et droite.
 
-Les [règles de fusion](https://developer.mozilla.org/fr/docs/Web/CSS/Mod%C3%A8le_de_bo%C3%AEte_CSS/Fusion_des_marges) sont souvent obscures pour un débutant.
+Les [règles de fusion](https://developer.mozilla.org/fr/docs/Web/CSS/Add background-color
 
 À quelques exceptions près, la fusion de marge n’a pas lieu quand :
 

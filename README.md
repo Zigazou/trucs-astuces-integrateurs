@@ -45,3 +45,4 @@ Il ne parle pas d’automatisation, d’industrialisation, de CI, de CD…
 - [Ayez une pensée pour l’accessibilité](compatibilite-web/accessibilite.md)
 - [N’oubliez pas de configurer `robots.txt` lors du développement](compatibilite-web/site-construction.md)
 - [Utilisez `<picture>` pour les images, les résolutions et les vieux navigateurs](compatibilite-web/nouveaux-formats.md)
+- [Recueillez des valeurs numériques correctement](compatibilite-web/input-number.md)
